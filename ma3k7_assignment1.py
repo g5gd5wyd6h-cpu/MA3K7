@@ -21,6 +21,6 @@ for a in range(0,10):
                 collisions.append(state)
                 a,b = step(a,b) 
             
-print("Number of distinct canonical states:", sorted(set(canonical_states)))
+print("Distinct canonical states:", sorted(set(canonical_states)))
 
-#OUTPUT: Number of distinct canonical states: [0, 1, 2, 5, 13, 26]
+#OUTPUT: Distinct canonical states: [0, 1, 2, 5, 13, 26]
