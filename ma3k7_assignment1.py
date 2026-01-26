@@ -22,3 +22,5 @@ for a in range(0,10):
                 a,b = step(a,b) 
             
 print("Number of distinct canonical states:", sorted(set(canonical_states)))
+
+#OUTPUT: Number of distinct canonical states: [0, 1, 2, 5, 13, 26]
